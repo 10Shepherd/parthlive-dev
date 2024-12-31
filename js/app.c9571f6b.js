@@ -244,28 +244,6 @@ if (!self.__WB_pmw) {
               ]),
             ]);
           },
-          function () {
-            var t = this,
-              e = t.$createElement,
-              a = t._self._c || e;
-            return a("footer", { staticClass: "page-footer grey lighten-3" }, [
-              a("div", { staticClass: "footer-copyright" }, [
-                a("div", { staticClass: "container" }, [
-                  a(
-                    "a",
-                    {
-                      staticClass: "black-text",
-                      attrs: {
-                        href: "https://parthinfo.com",
-                        target: "_blank",
-                      },
-                    },
-                    [t._v("© 2020 Parth Knowledge Network Pvt. Ltd")]
-                  ),
-                ]),
-              ]),
-            ]);
-          },
         ],
         d = {
           methods: {
@@ -306,6 +284,20 @@ if (!self.__WB_pmw) {
       n.a;
     },
   });
+  // Add a copyright footer
+  (function addCopyrightFooter() {
+    const footer = document.createElement('footer');
+    footer.style.textAlign = 'center';
+    footer.style.padding = '10px';
+    footer.style.backgroundColor = '#f1f1f1';
+    footer.style.color = '#333';
+    footer.style.fontSize = '14px';
+    footer.innerHTML = "© 2025 Parth Knowledge Network. All rights reserved.";
+    
+    // Append the footer to the body
+    document.body.appendChild(footer);
+  })();
+
   //# sourceMappingURL=app.c9571f6b.js.map
 }
 /*
