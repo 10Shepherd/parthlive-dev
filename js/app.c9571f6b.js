@@ -221,7 +221,7 @@ if (!self.__WB_pmw) {
                           height: "100%",
                         },
                         attrs: {
-                          src: "https://vimeo.com/event/147446/embed/interaction",
+                          src: "https://www.youtube.com/embed/l-nLZzy-LEA",
                           frameborder: "0",
                           allow: "autoplay; fullscreen; picture-in-picture;",
                           allowfullscreen: "",
@@ -240,16 +240,6 @@ if (!self.__WB_pmw) {
                     },
                   },
                   [t._v("Feedback - अभिप्राय")]
-                ),
-                r("div", { staticClass: "header-text-2" }, [
-                  r("b", [t._v("Powered By")]),
-                ]),
-                r(
-                  "a",
-                  {
-                    attrs: { href: "https://mobishaala.com", target: "_blank" },
-                  },
-                  [r("img", { staticClass: "logo", attrs: { src: a("1aa5") } })]
                 ),
               ]),
             ]);
